@@ -21,6 +21,8 @@
 		D0184EB818340BAF0064A76F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0184E9A18340BAF0064A76F /* UIKit.framework */; };
 		D0184EC018340BAF0064A76F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D0184EBE18340BAF0064A76F /* InfoPlist.strings */; };
 		D0184EC218340BAF0064A76F /* iOS2Lab5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D0184EC118340BAF0064A76F /* iOS2Lab5Tests.m */; };
+		D0184ECC183410B70064A76F /* image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D0184ECB183410B70064A76F /* image.jpg */; };
+		D0184ECF1834126A0064A76F /* WeatherManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D0184ECE1834126A0064A76F /* WeatherManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		D0184EBD18340BAF0064A76F /* iOS2Lab5Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOS2Lab5Tests-Info.plist"; sourceTree = "<group>"; };
 		D0184EBF18340BAF0064A76F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D0184EC118340BAF0064A76F /* iOS2Lab5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS2Lab5Tests.m; sourceTree = "<group>"; };
+		D0184ECB183410B70064A76F /* image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image.jpg; sourceTree = "<group>"; };
+		D0184ECD1834126A0064A76F /* WeatherManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WeatherManager.h; sourceTree = "<group>"; };
+		D0184ECE1834126A0064A76F /* WeatherManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WeatherManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +117,7 @@
 		D0184E9C18340BAF0064A76F /* iOS2Lab5 */ = {
 			isa = PBXGroup;
 			children = (
+				D0184ECB183410B70064A76F /* image.jpg */,
 				D0184EA518340BAF0064A76F /* AppDelegate.h */,
 				D0184EA618340BAF0064A76F /* AppDelegate.m */,
 				D0184EA818340BAF0064A76F /* Main.storyboard */,
@@ -119,6 +125,8 @@
 				D0184EAC18340BAF0064A76F /* ViewController.m */,
 				D0184EAE18340BAF0064A76F /* Images.xcassets */,
 				D0184E9D18340BAF0064A76F /* Supporting Files */,
+				D0184ECD1834126A0064A76F /* WeatherManager.h */,
+				D0184ECE1834126A0064A76F /* WeatherManager.m */,
 			);
 			path = iOS2Lab5;
 			sourceTree = "<group>";
@@ -231,6 +239,7 @@
 				D0184EAF18340BAF0064A76F /* Images.xcassets in Resources */,
 				D0184EA118340BAF0064A76F /* InfoPlist.strings in Resources */,
 				D0184EAA18340BAF0064A76F /* Main.storyboard in Resources */,
+				D0184ECC183410B70064A76F /* image.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +260,7 @@
 			files = (
 				D0184EAD18340BAF0064A76F /* ViewController.m in Sources */,
 				D0184EA718340BAF0064A76F /* AppDelegate.m in Sources */,
+				D0184ECF1834126A0064A76F /* WeatherManager.m in Sources */,
 				D0184EA318340BAF0064A76F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
